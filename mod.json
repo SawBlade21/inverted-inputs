@@ -1,0 +1,55 @@
+{
+	"geode": "4.5.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "sawblade.inverted_inputs",
+	"name": "Inverted Inputs",
+	"version": "v1.0.0",
+	"developer": "Sawblade",
+	"description": "Inverts player input (release to jump)",
+	"settings": {
+		"enable": {
+			"name": "Enable Mod",
+			"description": "Enables the effects of the mod.",
+			"type": "bool",
+			"default": true
+		},
+		"jump": {
+			"name": "Invert Jump",
+			"description": "Whether to invert jumping.",
+			"type": "bool",
+			"default": true
+		},
+		"left": {
+			"name": "Invert Left",
+			"description": "Whether to invert moving left in platformer.",
+			"type": "bool",
+			"default": true
+		},
+		"right": {
+			"name": "Invert Right",
+			"description": "Whether to invert moving right in platformer.",
+			"type": "bool",
+			"default": true
+		},
+		"p1": {
+			"name": "Invert Player 1",
+			"description": "Whether to invert inputs for Player 1.",
+			"type": "bool",
+			"default": true
+		},
+		"p2": {
+			"name": "Invert Player 2",
+			"description": "Whether to invert inputs for Player 2.",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"tags": [
+		"joke"
+	]
+}
